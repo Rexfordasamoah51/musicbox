@@ -1,0 +1,54 @@
+name: musicbox
+description: A new Flutter project.
+version: 1.0.0+1
+publish_to: none
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  ansicolor: ^2.0.1
+  bloc: ^7.0.0
+  flutter_bloc: ^7.0.0
+  google_fonts: ^2.1.0
+  intl: ^0.17.0
+  logging_appenders: ^1.0.0
+  sizer: ^2.0.13
+  flutter_animated_theme: ^1.0.0
+  animated_text_kit: ^4.2.1
+  r_dart_library:
+    git:
+      url: 'https://github.com/YK-Unit/r_dart_library.git'
+      ref: 0.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^8.0.0
+  mocktail: ^0.1.0
+  very_good_analysis: ^2.1.0
+  # flutter_launcher_icons: "^0.8.0"
+  build_runner:
+  flutter_gen_runner:
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/startup/
+
+flutter_gen:
+  output: lib/logic/services/assets
+
+
+  # Optional
+  integrations:
+    flutter_svg: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo/logo.png"
+
+

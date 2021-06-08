@@ -1,0 +1,31 @@
+{
+    "@@locale": "en",
+    "counterAppBarTitle": "Counter",
+    "@counterAppBarTitle": {
+        "description": "Text shown in the AppBar of the Counter Page"
+    },
+    "onboardingWelcomeMessage": "Play your favorite songs and artists.",
+    "@onboardingWelcomeMessage":{
+        "description": "message for onboarding"
+    },
+    "facebookText": "Sign up with Facebook",
+    "@facebookText":{
+        "description":"Facebook welcome text"
+    },
+    "googleText": "Sign up with Google",
+    "@GoogleText": {
+        "description":"Google welcome text"
+    },
+    "signUpText": "Sign up with Email",
+    "@signUpText":{
+        "description":"Email welcome text"
+    },
+    "alreadyText":" Already have an account?",
+    "@alreadyText":{
+        "description":"Already welcome text"
+    },
+    "loginText":"Log In",
+    "@loginText":{
+        "description":"Log In Text"
+    }
+}
